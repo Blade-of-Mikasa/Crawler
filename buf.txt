@@ -1,0 +1,71 @@
+用python写一个文本处理程序, 把
+[
+    {
+        "id": 1942464,
+        "user_id": 174971,
+        "name": "周二有没有人一起去玩铃兰女校2！",
+        "myimages": "",
+        "myvideofiles": [],
+        "mymusicfiles": [],
+        "topic_id": 0,
+        "createtime": 1732457028,
+        "updatetime": 1732457028,
+        "pReviewStatus": "3",
+        "hot": 273,
+        "top": "0",
+        "user_ids": "",
+        "shorturl": null,
+        "zansum": 0,
+        "commentsum": 2,
+        "jubaocount": 0,
+        "deleteuser": null,
+        "topEndTime": 0,
+        "dlz_count": 0,
+        "target": "0",
+        "xuanshang": null,
+        "majia": "0",
+        "adlevel": 1,
+        "jinghua": "0",
+        "origin": "0",
+        "keywords": "周二,玩,铃兰女校2",
+        "business_task_id": -1,
+        "freshkey": 2,
+        "business_plan_id": -1,
+        "settleed": "1",
+        "user": {
+            "id": 174971,
+            "nickname": "我不要学习",
+            "avatar": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic1.zhimg.com%2F50%2Fv2-bca2e9c7d5a14a9f3435e7f6ecdcb7d6_hd.jpg&refer=http%3A%2F%2Fpic1.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625914138&t=3ac3a1c7eb7991e9e6fd54d44ef8da67",
+            "level": 2,
+            "gender": 0,
+            "block": "0",
+            "price": 0,
+            "eattip": "0",
+            "eatupdatetime": 0,
+            "dlzs": 11810,
+            "verty": "0",
+            "xs_credit": 3,
+            "xs_price": 0,
+            "checktime": 1731168000,
+            "school_ids": null,
+            "remark": null,
+            "fire": 139,
+            "fuqicount": 0,
+            "likes": null,
+            "ques": "0",
+            "nohidepermission": "0"
+        },
+        "topic": null
+    },
+    {...},
+    ...
+    {...}
+]
+处理为下面的格式, 并存入同文件夹下的data.txt文件中:
+
+user_id: 174971:         
+    nickname: "我不要学习"
+    name: "周二有没有人一起去玩铃兰女校2！"
+user_id:....
+    ...
+...
